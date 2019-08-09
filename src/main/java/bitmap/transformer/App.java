@@ -3,28 +3,21 @@
  */
 package bitmap.transformer;
 
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class App {
 
   public static void main(String[] args) {
-    File bmpFile = new File("./src/main/resources/Coffee.bmp");
+    File inputFile = new File("./src/main/resources/Coffee.bmp");
 
     // Call readFile method
-    readFile(bmpFile);
-
-    // Call parseData method
-
-    // Call the new output bitmap file
+    readFile(inputFile);
 
     // Set transformation of new bitmap 3 times
-    Bitmap.setTransformName();
+    // Bitmap.setTransformName();
 
 
   }
@@ -38,16 +31,17 @@ public class App {
 
       Bitmap b = new Bitmap(image);
 
+      // write function and then call it on b
+//      b.functionName()
+
       ImageIO.write(image, "bmp", new File("./src/main/resources/CoffeeCopy.bmp"));
 
       //create with input file, output file and transform
-
-
       System.out.println(image);
       System.out.println("Success!");
     } catch(IOException e){
       System.out.println("Something is wrong with the image file!");
     }
   }
-  
+
 }
