@@ -6,6 +6,6 @@
 #### Methods 
 ```
 readFile()
-
-
+myBitmap.paintPurple();
+myBitmap.changeToYellow();
 ```
