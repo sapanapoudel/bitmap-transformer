@@ -1,5 +1,5 @@
 ### Bitmap Transformer 
-#### Collaborator: Nhu and Sapana 
+Create a bitmap transformer. 
 #### Resources 
 * https://github.com/sapanapoudel/bitmap-transformer/pull/3
 * https://javaconceptoftheday.com/read-and-write-images-in-java/
@@ -9,3 +9,6 @@ readFile()
 myBitmap.paintPurple();
 myBitmap.changeToYellow();
 ```
+
+#### Solution 
+![Bitmap white board](assets/Bitmap_WhiteBoard.jpg)
